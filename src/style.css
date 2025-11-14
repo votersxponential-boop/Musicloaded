@@ -1,0 +1,154 @@
+body {
+  background: #0f0f0f;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #eaeaea;
+}
+
+img {
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
+}
+
+img {
+  box-shadow: 0px 15px 60px rgba(255, 59, 48, 0.25);
+}
+
+body {
+  background: #0f0f0f;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #eaeaea;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+img {
+  box-shadow: 0px 15px 60px rgba(255, 59, 48, 0.25);
+}
+
+.video-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+audio {
+  width: 280px;
+  outline: none;
+  filter: drop-shadow(0px 5px 20px rgba(0,0,0,0.6));
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 12px 28px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.35s;
+}
+
+.contact-btn:hover {
+  background: #eaeaea;
+  color: #0f0f0f;
+}
+
+.sp-embed-player {
+  max-width: 390px;
+  width: 100%;
+}
+
+.music-player {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  color: #eaeaea;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.bio h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ff9900;
+}
+body {
+  background-color: #0a0a0a;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+}
+
+iframe {
+  border-radius: 12px;
+  margin-top: 25px;
+  box-shadow: 0px 0px 20px rgba(255, 153, 0, 0.2);
+}
+
+.bio {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  color: #eaeaea;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.bio h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ff9900;
+}
+
+.follow-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.follow-btn {
+  background: linear-gradient(90deg, #ff9900, #ffcc33);
+  color: #000;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 153, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.follow-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 25px rgba(255, 153, 0, 0.8);
+}
